@@ -207,7 +207,6 @@ The app automatically tries 3 different Overpass servers if one fails.
 
 - This project requires **no API keys** and **no `.env` file**
 - There is nothing sensitive to protect
-- Safe to push to GitHub as-is
 
 ---
 
