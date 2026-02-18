@@ -22,7 +22,7 @@ app.add_middleware(
 # API-Ninjas Configuration
 # -----------------------------
 API_NINJAS_URL = "https://api.api-ninjas.com/v3/recipe"
-API_KEY = "vL4tGjllsILlRBX40tbSe0zubaJcLyNfy5a5naFj"  # Keep secure in production
+API_KEY = ""  # Keep secure in production
 
 HEADERS = {
     "X-Api-Key": API_KEY
@@ -70,3 +70,4 @@ def random_recipe():
     if results:
         return {"results": [random.choice(results)]}
     return {"results": []}
+
